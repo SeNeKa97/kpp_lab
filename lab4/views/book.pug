@@ -1,0 +1,34 @@
+extends layout
+mixin absent()
+  span Нет
+  br
+  span Текущий читатель:&nbsp
+  =user.name
+  br
+  span Когда вернёт:&nbsp
+  =book.returnDate
+
+
+block content
+  div(class="wrapper")
+    div(class="header")
+      h1= title
+      a(href="/books") Назад
+    hr
+    div(class="content")
+      div(class="container bordered" id="bordered-book")
+        img(src=book.coverImg, width="400", alt=book.name)
+        hr
+        span Автор:&nbsp
+        =book.author
+        br
+        span Есть в наличии:&nbsp
+        book.borrowedBy
+        if book.borrowedBy==-1
+          span Да
+        else
+          +absent()
+
+
+    hr
+    div(class="footer") Bogdan Shevchuk, 2019

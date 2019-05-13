@@ -1,0 +1,31 @@
+extends layout
+
+block content
+  div(class="wrapper")
+    div(class="header")
+      h1= title
+    hr
+    div(class="content")
+      button(class="btn-success", onclick="filter(\"ALL\")") Все
+      button(class="btn-warning", onclick="filter(\"PRESENT\")") Есть в наличии
+      button(class="btn-danger", onclick="filter(\"ABSENT\")") Нет в наличии
+      table(id="data")
+        tr
+          th Название книги
+          th Автор
+          th Есть в наличии
+          th
+        each book in books
+          tr
+            td
+              a(href="/book/"+book.id)=book.name
+            td=book.author
+            if book.borrowedBy!=-1
+              td Нет
+            else
+              td Да
+            td
+              img(src=book.coverImg  height="50" alt=book.name)
+      a(href="/") На начальную страницу
+    hr
+    div(class="footer") Bogdan Shevchuk, 2019

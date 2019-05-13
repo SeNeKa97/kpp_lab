@@ -1,0 +1,47 @@
+[
+    {
+        "id": 7,
+        "name": "V-Micro",
+        "score": 2300
+    },
+    {
+        "id": 6,
+        "name": "Guille",
+        "score": 300
+    },
+    {
+        "id": 1,
+        "name": "Vasya",
+        "score": 100
+    },
+    {
+        "id": 2,
+        "name": "Same",
+        "score": 0
+    },
+    {
+        "id": 3,
+        "name": "Vovan",
+        "score": 0
+    },
+    {
+        "id": 4,
+        "name": "Vovan",
+        "score": 0
+    },
+    {
+        "id": 5,
+        "name": "Vovan",
+        "score": 0
+    },
+    {
+        "id": 8,
+        "name": "Smart",
+        "score": 100
+    },
+    {
+        "id": 9,
+        "name": "New",
+        "score": 0
+    }
+]

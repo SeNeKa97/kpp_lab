@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    div(class="wrapper")
+        div(class="header")
+            h1(id = "entry") Вход на аукцион
+        hr
+        div(class="content")
+
+            span(id="text_nickname") Логин
+            br
+            input(id="nickname", placeholder = "Имя администратора", required)
+            br
+            span(id="text_password") Пароль
+            br
+            input(id="password", placeholder = "Пароль", required)
+            br
+            hr
+            button(id="register", onclick=`entry()`) Войти
+            br
+            br
+            button(id="auctioners", onclick=`auctioners()`) Войти как пользователь

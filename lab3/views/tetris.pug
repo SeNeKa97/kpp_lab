@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  div(class="wrapper")
+    div(class="header") 
+      h1 Тетрис
+    hr
+    div(class="content")
+      button(class="btn-success" onclick="startGame("+person+")") Начать игру!
+      div(id="tetris-app")
+        div(id="left-block")
+          canvas(id="main-canvas", width="300", height="600")
+        div(id="right-block")
+          canvas(id="next-canvas", width="120", height="120")
+          p(class="info") cтрелки влево/вправо : влево/вправо;
+          p(class="info") стрелка вверх ,или [пробел]: сбросить фигуру;
+          p(class="info") стрелка вниз: поворот тетрамино;
+          p(class="info") Esc: приостановить игру
+          p(class="info" id="scores")
+        div(class="clear")
+      a(href="/score") Перейти к таблице рекордов
+    hr
+    div(class="footer") Bogdan Shevchuk, 2019
+  script(src=js)
+
+  script(src=jsGame)
+  script(src=jsControls)
+  script(src=jsRender)

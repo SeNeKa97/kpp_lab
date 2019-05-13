@@ -1,0 +1,19 @@
+extends layout
+
+block content
+	div(class="wrapper")
+		div(class="header") 
+			h1 Таблица рекордов
+		hr
+		div(class="content")
+			table
+				tr
+					th Имя
+					th Счёт
+				each person in users
+					tr
+						td=person.name
+						td=person.score
+			a(href="/") На главную
+		hr
+		div(class="footer") Bogdan Shevchuk, 2019

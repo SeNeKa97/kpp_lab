@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	div(class="wrapper")
+		div(class="header")
+			h1(id="name") Аукцион картин - админ. панель
+		hr
+		div(class="content")
+			p(id="pictures" onclick="redirect1()")= "Список картин"
+			p(id="people" onclick="redirect2()")= "Список участников"
+			hr
+			p(id="setting_auction" onclick="redirect3()")= "Настроить аукцион"

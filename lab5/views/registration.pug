@@ -1,0 +1,26 @@
+extends layout
+
+block content
+    div(class="wrapper")
+        div(class="header")
+            h1(id="title") Регистрация
+        hr
+        div(class="content")
+
+                input(
+                        id="name"
+                        placeholder = "Введите имя"
+                        required
+                )
+                br
+                input(
+                        id="money"
+                        placeholder = "Введите запас ден. средств"
+                        required
+                )
+                br
+                button(
+                        id="join"
+                        onclick="registrated("+people.length+")"
+                )="Зарегистрировать"
+                ul(id="data")

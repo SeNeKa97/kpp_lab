@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "connect-livereload": "^0.6.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "gulp": "^4.0.2",
+    "gulp-express": "^0.3.5",
+    "gulp-nodemon": "^2.4.2",
+    "http-errors": "~1.6.2",
+    "install": "^0.12.2",
+    "morgan": "~1.9.0",
+    "passport": "^0.4.0",
+    "pug": "2.0.0-beta11",
+    "tiny-lr": "^1.1.1"
+  },
+  "devDependencies": {
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.3.1",
+    "socket.io": "^2.1.1"
+  }
+}

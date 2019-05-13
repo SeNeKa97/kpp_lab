@@ -1,0 +1,161 @@
+/*#fon{position:fixed;top:0;left:0;height:100%;width:100%;background-image:url(/images/pic2_1.jpg);background-color:#ffe4e1}
+#smole_fon{background-color:#ffe4e1;border:2px solid #e9967a;position:absolute;top:100px;left:10%;height:580px;width:50%;opacity:.8;padding:2%;line-height:2}
+#picture{position:fixed;top:145px;left:717px}
+#name{font-size:36px;font-style:italic;color:#000;position:fixed;top:10px;left:1300px}
+#home{font-size:30px;font-style:italic;color:#e9967a;position:absolute;left:20px}
+input{background-color:#ffe4e1;border:2px solid #e9967a}
+#description{background-color:#ffe4e1;border:2px solid #e9967a;height:200px;width:465px;margin:3px;padding:5px 0 5px 5px;font-size:14px}
+#botton{font-size:20px;font-style:italic;color:#000}
+#buy{font-size:20px;font-style:italic;color:black;position:fixed;top:670px;left:300px}
+#price{font-size:20px;font-style:italic;color:black;position:fixed;top:670px;left:700px}*/
+
+#description{
+  height:200px;width:465px;
+}
+#picture{
+  float:right;
+  width: 500px;
+}
+
+
+body{
+	background-image: url("../img/beige-paper.png");
+}
+
+@font-face{
+  font-family: 'Roboto', sans-serif;
+  src:url("https://fonts.googleapis.com/css?family=Roboto");   
+}
+.wrapper{
+  background-color:#fcfcfc;
+  width:70%;
+
+  margin:20px auto 0px auto;
+  border-radius:5px;
+  font-family: Roboto;
+  font-weight: 300;
+    font-size:16pt;
+  padding:20px 60px;
+}
+
+.header h1{
+  font-weight:500;
+  font-size:18pt;
+}
+.content{
+  width:100%;
+}
+.footer{
+
+}
+
+hr {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#666;
+  opacity:0.5;
+}
+
+.message{
+  height:400px;
+  background-color:#eee;
+  border: 1px solid #5558;
+  box-shadow: inset 0px 1px 0px 0px rgba(255,255,255, 0.50), 0px 0px 1px 1px rgba(0,0,0,0.05), inset 0px 0px 1px 1px rgba(0,0,0,0.05);
+}
+
+#msg{
+  width:35%;
+  float:left;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+button{
+  border:1px solid;
+  padding:6px 10px;
+  border-radius:4px;
+  font-family:'Roboto';
+  border-color:#CFCFCF;
+}
+
+.btn-primary{
+  color: #fff;
+  background-color:#337AB7;
+  border-color: #2E6DA4;}
+.btn-primary:hover{
+  background-color:#286090;
+  border-color:#204D74;}
+.btn-primary:active{
+  background-color:#204C73;
+  border-color:#173955;}
+
+
+.btn-success{
+  color: #fff;
+  background-color:#5CB85C;
+  border-color:#4CAE4C;}
+.btn-success:hover{  
+  background-color:#449D44;
+  border-color:#398439;}
+.btn-success:active{  
+  background-color:#398339;
+  border-color:#2C672C}
+
+
+.btn-warning{
+  color:#fff;
+  background-color:#F0AD4E;
+  border-color:#EEA236;}
+.btn-warning:hover{
+  background-color:#EC971F;
+  border-color:#D58512;}
+.btn-warning:active{
+  background-color:#D58512;
+  border-color:#AE6D0E;}
+
+.btn-danger{
+  color:#fff;
+  background-color:#D9534F;
+  border-color:#D43F3A;}
+.btn-danger:hover{
+  background-color:#C9302C;
+  border-color:#AC2925;}
+.btn-danger:active{
+  background-color:#AB2925;
+  border-color:#8A201D;}
+
+button:hover{background-color:#bbf;}
+button:focus {outline:0;}
+button:active{background-color:#ddf;}
+
+tr,th,td{
+  border:1px solid #aaa;
+}
+
+th{
+  background-color:#eee;
+  font-weight:400;
+}
+
+table{
+  border-collapse:collapse;
+}
+
+.container{
+ 
+}
+#right{
+  width:60%;
+  float:right;
+  padding:5px;
+}
+.bordered{
+  border: 1px solid #5555;
+  border-radius: 3px;
+  box-shadow: inset 0px 1px 0px 0px rgba(255,255,255, 0.50), 0px 0px 1px 1px rgba(0,0,0,0.04), inset 0px 0px 1px 1px rgba(0,0,0,0.04);
+}

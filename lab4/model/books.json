@@ -1,0 +1,45 @@
+[{
+	"id":1,
+	"name":"Маленький принц",
+	"author":"Антуан Сент-Экзюпери",
+	"borrowedBy": -1,
+	"coverImg":"https://s5-goods.ozstatic.by/480/899/528/10/10528899_0_Malenkiy_princ_Antuan__de_Sent-Ekzyuperi.jpg"
+},
+{
+	"id":2,
+	"name":"Старик и море",
+	"author":"Эрнест Хэмингуэй",
+	"borrowedBy":1,
+	"returnDate":"01.06.2019",
+	"coverImg":"https://s2-goods.ozstatic.by/2000/32/163/10/10163032_0.jpg"
+},
+{
+	"id":3,
+	"name":"Красное и черное",
+	"author":"Стендаль",
+	"borrowedBy":2,
+	"returnDate":"13.05.2019",
+	"coverImg":"https://s3-goods.ozstatic.by/480/505/37/1/1037505_0_Krasnoe_i_chernoe_m_Stendal.jpg"
+},
+{
+	"id":4,
+	"name":"Превращение",
+	"author":"Франц Кафка",
+	"borrowedBy":-1,
+	"coverImg":"https://s2-goods.ozstatic.by/2000/322/113/10/10113322_0.jpg"
+},
+{
+	"id":5,
+	"name":"Мастер и Маргарита",
+	"author":"Михаил Булгаков",
+	"borrowedBy":3,
+	"returnDate":"20.05.2019",
+	"coverImg":"https://s4-goods.ozstatic.by/2000/806/275/10/10275806_0.jpg"
+},
+{
+	"id":6,
+	"name":"Над пропастью во ржи",
+	"author":"Джером Селинджер",
+	"borrowedBy":-1,
+	"coverImg":"https://s4-goods.ozstatic.by/2000/387/107/107387_0.jpg"
+}]

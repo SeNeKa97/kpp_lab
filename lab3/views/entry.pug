@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	div(class="wrapper")
+		div(class="header") 
+			h1 Войти в игру
+		hr
+		div(class="content")
+			input(type="text" id="nickname" placeholder="Имя пользователя")
+			button(class="info" onclick="submit()") Войти!
+			br
+			a(href="/score") Перейти к таблице рекордов
+		hr
+		div(class="footer") Bogdan Shevchuk, 2019
+	script(src=js)
